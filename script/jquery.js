@@ -26,7 +26,7 @@ const swiper = new Swiper('.swiper-container', {
     slidesPerView: 3,
     spaceBetween: 30,
     debugger: true,
-    mousewheel: true,
+    // mousewheel: true,
     loop: true,
     centeredSlides: true,  effect: 'fade',
     autoplay: {
