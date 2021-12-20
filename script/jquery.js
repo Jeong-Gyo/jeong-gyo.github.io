@@ -20,8 +20,48 @@ $(document).ready(function(){
         $(".con2-nav-main02").css({"background":"#fff"});
         $(".con2-nav-main02>a").css({"color":"#222"});
     });
-    
+
+const swiper = new Swiper('.swiper-container', {
+    direction: 'horizontal',
+    slidesPerView: 3,
+    spaceBetween: 30,
+    debugger: true,
+    mousewheel: true,
+    loop: true,
+    centeredSlides: true,  effect: 'fade',
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false, },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true, },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev', 
+    }, 
+});
+
+$('.nav-itsme').click(function(){
+    var offset = $('.content01').offset();
+    $('html').animate({scrollTop : offset.top}, 600);
+});
+$('.nav-skill').click(function(){
+    var offset = $('.content02').offset();
+    $('html').animate({scrollTop : offset.top}, 600);
+});
+$('.nav-porfolio').click(function(){
+    var offset = $('.content03').offset();
+    $('html').animate({scrollTop : offset.top}, 600);
+});
+$('.nav-info').click(function(){
+    var offset = $('.footer').offset();
+    $('html').animate({scrollTop : offset.top}, 600);
+});
+$('.actionBtn5').click(function(){
+    var offset = $('.content03').offset();
+    $('html').animate({scrollTop : offset.top}, 600);
+});
+
+
+
 })
-
-
-

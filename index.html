@@ -6,6 +6,15 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="script/jquery-1.12.3.js"></script>
     <script src="script/jquery.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -23,16 +32,24 @@
             <div class="gnb">
                 <ul>
                     <li class="gnb-list">
-                        <a class="font-12" href="cursor:pointer">Facebook</a>
+                        <a href="javascript:;" class="code_view actionBtn7">
+                            <span class="font-12">Facebook</span>
+                       </a>
                     </li>
                     <li class="gnb-list">
-                        <a class="font-12" href="cursor:pointer">Instargram</a>
+                        <a href="javascript:;" class="code_view actionBtn7">
+                            <span class="font-12">Instargram</span>
+                       </a>
                     </li>
                     <li class="gnb-list">
-                        <a class="font-12" href="cursor:pointer">Blog</a>
+                        <a href="javascript:;" class="code_view actionBtn7">
+                            <span class="font-12">Blog</span>
+                       </a>
                     </li>
                     <li class="gnb-list">
-                        <a class="font-12" href="cursor:pointer">Mail</a>
+                        <a href="javascript:;" class="code_view actionBtn7">
+                            <span class="font-12">Mail</span>
+                       </a>
                     </li>
                 </ul>
             </div>
@@ -59,14 +76,29 @@
         </nav>
     </header>
 <!--    content-->
-    <div class="content">
+    
     <!--section slider-->
-        <section class="section01">
-            <img src="" alt="섹션 이미지">
-        </section>
-
+    <section class="section01">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/slide/cat02.jpg" alt="슬라이드 01">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide/coffee01.jpg" alt="슬라이드 02">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/slide/potato01.jpg" alt="슬라이드 03">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <div class="content">
     <!--NEWS, CAREER-->
-        <div class="section02">
+        <!-- <div class="section02">
             <div class="container sec2">
                 <div class="news">
                     <a class="font-14-2" href="cursor:pointer">NEWS</a>
@@ -75,7 +107,7 @@
                     <a class="font-14-2" href="cursor:pointer">CAREER</a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     <!--It's Me-->
         <div class="content01 container-padding">
@@ -107,12 +139,20 @@
             <div class="container con2-nav">
                 <ul class="con2-nav-main">
                     <li class="con2-nav-main01">
-                        <a class="font-14" href="cursor:pointer">
+                        <a href="javascript:;" class="code_view actionBtn21 font-14">
+                            <i class="ico-plus2">
+                            <span></span>
+                            <span></span>
+                            </i>
                             <span class="con2-nav-lsit">License</span>
                         </a>
                     </li>
                     <li class="con2-nav-main02">
-                        <a class="font-14" href="cursor:pointer">
+                        <a href="javascript:;" class="code_view actionBtn21 font-14">
+                            <i class="ico-plus2">
+                            <span></span>
+                            <span></span>
+                            </i>
                             <span class="con2-nav-lsit">Complete</span>
                         </a>
                     </li>
@@ -361,7 +401,7 @@
                                     <div class="hover">
                                         <span class="hover_inner">
                                             <span class="sub_tit">
-                                                <span>포트폴리오01</span>
+                                                <span>Dice 3D</span>
                                             </span>
                                         </span>
                                     </div>
@@ -375,7 +415,7 @@
                                     <div class="hover">
                                         <span class="hover_inner">
                                             <span class="sub_tit">
-                                                <span>포트폴리오02</span>
+                                                <span>Shopping Mall</span>
                                             </span>
                                         </span>
                                     </div>
@@ -391,7 +431,7 @@
                                     <div class="hover">
                                         <span class="hover_inner">
                                             <span class="sub_tit">
-                                                <span>포트폴리오03</span>
+                                                <span>CTA_A</span>
                                             </span>
                                         </span>
                                     </div>
@@ -405,7 +445,7 @@
                                     <div class="hover">
                                         <span class="hover_inner">
                                             <span class="sub_tit">
-                                                <span>포트폴리오04</span>
+                                                <span>Trim Path Intro</span>
                                             </span>
                                         </span>
                                     </div>
@@ -419,7 +459,7 @@
                                     <div class="hover">
                                         <span class="hover_inner">
                                             <span class="sub_tit">
-                                                <span>포트폴리오05</span>
+                                                <span>KAKAO FRIENDS Motion</span>
                                             </span>
                                         </span>
                                     </div>
@@ -435,7 +475,7 @@
                                     <div class="hover">
                                         <span class="hover_inner">
                                             <span class="sub_tit">
-                                                <span>포트폴리오06</span>
+                                                <span>Lego 3D</span>
                                             </span>
                                         </span>
                                     </div>
@@ -449,7 +489,7 @@
                                     <div class="hover">
                                         <span class="hover_inner">
                                             <span class="sub_tit">
-                                                <span>포트폴리오07</span>
+                                                <span>Barista Tournament Poster</span>
                                             </span>
                                         </span>
                                     </div>
@@ -465,7 +505,7 @@
         <div class="hold-back">
             <span class="hold-text font-16-2">인생을 작게 살기에는 너무 짧다</span>
         </div>
-    </div>
+
 <!--footer-->
     <div class="footer container-padding">
         <div class="container">
@@ -496,7 +536,7 @@
     </div>
     <div class="footer-bot-back">
         <div class="container footer-bot">
-            <span class="font-12-3">2021 Design by Jeong-Gyo</span>
+            <span class="font-12-3">Copyright © 2021 Design by Jeong-Gyo</span>
             <span class="font-12-3">Life is too short to be little.</span>
         </div>
     </div>
